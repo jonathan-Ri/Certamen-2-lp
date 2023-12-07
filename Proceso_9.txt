@@ -1,0 +1,16 @@
+Proceso_9
+# Tipo de Instrucción:
+# I = Instrucción Normal.
+# ES c = Instrucción E/S que se desbloqueará dentro n pasos de CPU (instrucciones
+# ejecutadas). Ocurrirá cuando haya cambio de proceso en la CPU, antes de cargar un
+# nuevo proceso.
+# F = Finalizar. Dispatcher debe pasar el proceso al estado Saliente y eliminarlo.
+#
+# Contenido de Ejemplo:
+# Nro Instrucción Tipo de Instrucción
+1 I
+2 I
+3 ES 7
+4 I
+5 I
+6 F
